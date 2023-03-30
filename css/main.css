@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box
+    ;
+}
+.landing{
+    background-color:#212529!important;
+    position: relative;
+    height: 500px;
+}
+.cover1{
+    background-color: #19283f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+.active{
+    color: rgb(91, 241, 91) !important;
+}
+li a:hover{
+    color: rgb(91, 241, 91) !important;
+}
+ nav li a{
+    color: #fff !important;
+}
+@media (min-width:1200px) {
+    ul.navbar-nav {
+        border-right:1px solid rgb(91, 241, 91) !important; 
+    }
+   
+}
+.icon-holder i{
+    transform: translateX(-50%);
+    left:50%
+}
+ li a{
+    color: black !important;
+}
+.img-box {
+    padding: 0;
+    margin: 5px;
+    /* width: 24%!important; */
+ }
+.cover{
+    background-color: #1fdaff7d;
+    
+    width: calc(100% - 8px);
+    height: calc(100% - 11px);
+    top: 5px;
+    left: -100%;
+    transition: all 1s;
+    z-index: 1;
+}
+.imge img{
+    width: 100% !important;
+}
+ .img-box:hover .cover{
+    top: 5px;
+    left: 04px;
+}
+.teams .row .card,
+.blog .row figure{
+    background-color: transparent;
+    border: none;
+}
+.team img,
+figure img {
+    width:100%;
+    
+}
+figure{
+    width:90%;
+}
+
+.links{
+    list-style: none;
+}
+.liks li{
+margin: 2px 2px 15px;
+}
+.bg-cad{
+    background-color: cadetblue;
+    color:white
+}
+.bg-b{
+    background-color: blue;
+    color:white
+}
+.bg-r{
+    background-color: red;
+    color:white
+}
+@media (min-width:560px) {
+    .w-sm{
+        width:48%;
+        margin:5px
+    }
+}
+@media (min-width:771px) {
+    .w-md{
+        width:31%;
+        margin:5px;
+    }
+    
+}
+@media (min-width:1200px) {
+    .w-lg{
+        width:24%;
+        margin:5px;
+    }
+    
+}
+@media (max-width:559px) {
+    .w-xs{
+        width:100%;
+        
+    }
+    
+}
+
